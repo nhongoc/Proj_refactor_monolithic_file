@@ -11,28 +11,13 @@
 using namespace std;
 
 #include "../includes/constants.h"
-
-//default files to read and write data
-const std::string SOURCE_FILE 	= "source_file.txt";
-const std::string RESULTS_FILE 	= "results_file.txt";
+#include "../includes/fileio.h"
 
 //some data structures
 enum SORT_ORDER { PROCESS_NUMBER, CPU_TIME, START_TIME };
 struct process{	int process_number=UNINITIALIZED;
 				int cpu_time=UNINITIALIZED;
 				int start_time=UNINITIALIZED;};
-
-//attempt to open file 'filename' and read in all data
-//returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
-int loadData(const std::string filename, vector<process> &myProcesses){
-	return UNIMPLEMENTED;
-}
-
-//attempt to create or open file 'filename' to write all data to
-//returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
-int saveData(const std::string filename, vector<process> &myProcesses){
-	return UNIMPLEMENTED;
-}
 
 //sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 //returns nothing

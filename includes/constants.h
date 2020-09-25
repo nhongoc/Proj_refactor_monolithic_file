@@ -1,6 +1,7 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
+//default return types
 const int 			EMPTY			 				=  0;
 const int 			SUCCESS			 				=  0;
 const int 			FAIL							=  SUCCESS - 1;
