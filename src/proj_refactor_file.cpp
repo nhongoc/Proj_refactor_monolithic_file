@@ -14,12 +14,6 @@ using namespace std;
 #include "../includes/fileio.h"
 #include "../includes/utils.h"
 
-//some data structures
-enum SORT_ORDER { PROCESS_NUMBER, CPU_TIME, START_TIME };
-struct process{	int process_number=UNINITIALIZED;
-				int cpu_time=UNINITIALIZED;
-				int start_time=UNINITIALIZED;};
-
 int main() {
 	vector<process> myProcesses;
 
