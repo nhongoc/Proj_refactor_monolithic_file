@@ -5,11 +5,11 @@
 // Copyright   : Steal this code!
 // Description : learn how to refactor files into a sensible directory structure
 //============================================================================
-using namespace std;
-
+#include <vector>
 #include "../includes/fileio.h"
 #include "../includes/constants.h"
 #include "../includes/utils.h"
+using namespace std;
 
 int main() {
 	vector<process> myProcesses;
