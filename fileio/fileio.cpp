@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+#include <vector>
 #include "../includes/fileio.h"
 
 //attempt to open file 'filename' and read in all data
